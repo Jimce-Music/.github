@@ -48,4 +48,21 @@
 
   <!-- Center hole -->
   <circle cx="256" cy="256" r="16" fill="black"/>
+
+  <!-- Outline -->
+  <!-- Black outline -->
+    <path
+    d="
+        M256 96
+        C330 96 400 140 416 216
+        C432 292 384 368 304 392
+        C224 416 136 376 112 304
+        C88 232 140 96 256 96
+        Z
+    "
+    fill="none"
+    stroke="black"
+    stroke-width="4"
+    />
+
 </svg>
