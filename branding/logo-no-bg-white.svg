@@ -1,0 +1,31 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Wobbly vinyl shape -->
+  <path
+    d="
+      M256 96
+      C330 96 400 140 416 216
+      C432 292 384 368 304 392
+      C224 416 136 376 112 304
+      C88 232 140 96 256 96
+      Z
+    "
+    fill="white"
+  />
+
+  <!-- Groove rings -->
+  <g fill="none" stroke="black" stroke-width="3" opacity="0.5">
+    <circle cx="256" cy="256" r="180"/>
+    <circle cx="256" cy="256" r="165"/>
+    <circle cx="256" cy="256" r="150"/>
+    <circle cx="256" cy="256" r="135"/>
+    <circle cx="256" cy="256" r="120"/>
+  </g>
+
+  <!-- Inner label -->
+  <circle cx="256" cy="256" r="100" fill="black"/>
+  <circle cx="256" cy="256" r="80" fill="white"/>
+
+  <!-- Center hole -->
+  <circle cx="256" cy="256" r="16" fill="black"/>
+</svg>
+
